@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>简单的留言板</title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<h1>简单的网页留言板</h1>
+            <textarea rows="10" cols="88" id="dome3"></textarea>
+<br>
+<input type="button" value="保存" onclick="saveStorage('dome');">
+<input type="button" value="清除" onclick="clearStorage('msg');">
+<input type="button" value="读取" onclick="loadStorage('msg');">
+<hr>
+<!--用来保存信息-->
+<p id="msg"></p>
+</body>
+</html>
